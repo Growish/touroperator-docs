@@ -1,0 +1,10 @@
+{
+  "name": "LNO/LR Tour Operator API",
+  "version": "0.0.1",
+  "description": "This API expose several methods tour operators can use to create and assign wedding/general lists to their agencies.",
+  "title": "LNO and LR Api for Tour operators",
+  "header": {
+    "title": "Start here",
+    "filename": "header.md"
+  }
+}
