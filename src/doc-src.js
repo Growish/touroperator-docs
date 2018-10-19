@@ -33,14 +33,17 @@
  * @apiParam (Owner Data) {Email}         [ownerEmail] Owner's email
  *
  *
+ * @apiParam (List Data) {String}         [type] Type of the list, wedding or gift
+ *
+ *
  * @apiParam (Travel Data) {String{2..300}} [travelTitle] Title of the travel
  * @apiParam (Travel Data) {String{2..10000}} [travelDescription] Description of the travel
  * @apiParam (Travel Data) {String[]} [travelPictures] Url of an image (can be repeated 5 times)
  *
- * @apiParam (Travel Stage) {Object[]} [travelStages] Stages of the travel
- * @apiParam (Travel Stage) {String{2..300}} [travelStages.title] Title of the stage
- * @apiParam (Travel Stage) {Number} [travelStages.amount] Cost in eurocents of the stage
- * @apiParam (Travel Stage) {Number} [travelStages.quoteNumber] Amount of quotes available
+ * @apiParam (Travel Steps) {Object[]} [travelSteps] Step of the travel
+ * @apiParam (Travel Steps) {String{2..300}} [travelSteps.title] Title of the step
+ * @apiParam (Travel Steps) {Number} [travelSteps.amount] Cost in eurocents of the step
+ * @apiParam (Travel Steps) {Number} [travelSteps.quoteNumber] Amount of quotes available
  *
  *
  */
